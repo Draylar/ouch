@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "draylar.ouch.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "DamageTrackerMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

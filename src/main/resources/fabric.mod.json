@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ouch",
+  "version": "${version}",
+  "name": "Ouch",
+  "description": "Awesome hit indicators!",
+  "authors": [
+    "Draylar"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ouch/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "draylar.ouch.client.OuchClient"
+    ]
+  },
+  "mixins": [
+    "ouch.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
