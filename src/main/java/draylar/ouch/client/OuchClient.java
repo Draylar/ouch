@@ -24,7 +24,7 @@ import java.util.*;
 @Environment(EnvType.CLIENT)
 public class OuchClient implements ClientModInitializer {
 
-    public static final List<String> HIT_MESSAGES = Arrays.asList("Ouch!", "Dramatic!", "Bang!", "Crash!", "Slam!", "Whack!");
+    public static final List<String> HIT_MESSAGES = Arrays.asList("Ouch!", "Dramatic!", "Bang!", "Crash!", "Slam!", "Whack!", "Pow", "Zap!", "Crunch", "KaPow!", "Thwack!");
     private static final Random RANDOM = new Random();
     public static final List<Popup> POPUPS = new ArrayList<>();
 
